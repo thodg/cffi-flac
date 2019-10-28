@@ -24,6 +24,7 @@
    :cffi
    :common-lisp)
   (:export
-   #:+flac--metadata-type-vorbis-comment+
+   #:flac--metadata-get-streaminfo
+   #:metadata-get-streaminfo
    #:flac--metadata-get-tags
    #:metadata-get-tags))
